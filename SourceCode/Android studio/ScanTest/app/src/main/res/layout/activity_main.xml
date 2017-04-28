@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/status_text"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/btn_main_help"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.5" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.27"
+            android:gravity="left"
+            android:text="@string/number"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/status_text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/code"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/status_text" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:gravity="right"
+            android:text="@string/num"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/status_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="13"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list_code"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="10"
+            android:background="@drawable/listback"
+            android:divider="@color/pad_blue_color"
+            android:dividerHeight="1dp"
+            android:scrollbars="vertical" >
+        </ListView>
+
+        <Button
+            android:id="@+id/btn_savacode"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:background="@drawable/scanbst"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/btn_savacode1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:text="@string/menuexport"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

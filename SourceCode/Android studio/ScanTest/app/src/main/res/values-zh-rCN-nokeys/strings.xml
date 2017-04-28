@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">条码扫描</string>
+    <string name="savesuccess">数据导出成功</string>
+    <string name="savefailed">数据导出失败</string>
+    <string name="savedata">保存数据</string>
+    <string name="saveing">正在导出数据请稍等</string>
+    <string name="nodata">暂无保存数据 </string>
+    <string name="menuexport">导出数据</string>
+    <string name="menuhelp">帮助</string>
+     <string name="clean">清除数据</string>
+    <string name="number">编号</string>
+    <string name="code">条码</string>
+    <string name="num">数量</string>
+    <string name="App_version">版本号:</string>
+    <string name="instructions">说明:</string>
+    <string name="codeexplain">"   条码是采用深浅模块图像单元承载信息的图形符号，诞生于上世纪50年代中期。最早发展成熟的条码技术是一维条码技术，一维条码中的“一维”是指条码信息只在一个方向上（垂直于条空的方向）存在，而与条空平行的竖向则不承载信息。一维条码技术是为了解决商品零售结算环节，产品编码信息快速获取问题而研发的
+     随着条码技术的飞速发展，人们希望能够用条码标识产品描述信息等更大量更多种类的信息，满足在物流、电子、单证、军事等领域产品描述信息自动化采集的需求。
+     二维码或称二维条码是能够在两个方向上承载信息的条码符号，作为一种衍生条码技术，从技术上可分为行排式和矩阵式两类,二维码解决了一维码的信息存储量不足的问题。"</string>
+    <string name="codeone">"  一维条码:是将宽度不等的多个黑条和空白，按照一定的编码规则排列，用以表达一组信息的图形标识符。常见的条形码是由反射率相差很大的黑条（简称条）和白条（简称空）排成的平行线图案，常用的一维码的码制包括：EAN码、39码、交叉25码、UPC码、128码、93码，ISBN码，及Codabar（库德巴码）等,常见的条形码是由反射率相差很大的黑条（简称条）和白条（简称空）排成的平行线图案，如EAN13码:"</string>
+    <string name="codetwo">"  二维条码/二维码:（2-dimensional bar code）是用某种特定的几何图形按一定规律在平面（二维方向上）分布的黑白相间的图形记录数据符号信息的,常见的二维码如QR码，pdf417"</string>
+    <string name="contentone">"  (1)本软件默认使用广播模式接收条码数据,扫描可以使用左右两侧的蓝色按键扫描,也可以使用界面上Scan按钮完成扫描"</string>
+    <string name="contenttwo">"  (2)扫描完成后可以使用导出数据功能,导出扫描信息到文件,文件保存路径为:"sdcard/ScanCodeLogs"</string>
+
+
+</resources>
